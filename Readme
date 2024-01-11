@@ -1,0 +1,7 @@
+In this model, I use The CIFAR-10 dataset includses the classes 
+Step 1 | Import Necessary Libraries (TensorFlow and Keras to handle the image data)
+Step 2 | Data Preparation and Exploration (split  training data to training and validation sets)
+Step 3 | Data Preprocessing 1)Normalization of Image Data :(convert the pixel values data type to float32 type, and then normalizes them by subtracting the mean and dividing by the standard deviation of the training set)
+2)One-Hot Encoding of Labels: convert the class labels to one-hot vectors to transform the categorical labels into a format suitable
+3)Data Augmentation :expand the size of the training set by creating modified versions of images in the dataset
+Step 4 | Define CNN Model Architecture :It contains multiple convolutional layers followed by max-pooling and dropout layers, and finally a fully connected layer for classification.
