@@ -1,4 +1,4 @@
-In this model, I use The CIFAR-10 dataset includses the classes 
+In this model, I use The **-CIFAR-10 dataset** includses the classes 
 Step 1 | Import Necessary Libraries (TensorFlow and Keras to handle the image data)
 Step 2 | Data Preparation and Exploration (split  training data to training and validation sets)
 Step 3 | Data Preprocessing 1)Normalization of Image Data :(convert the pixel values data type to float32 type, and then normalizes them by subtracting the mean and dividing by the standard deviation of the training set)
@@ -8,5 +8,6 @@ Step 4 | Define CNN Model Architecture :It contains multiple convolutional layer
 Step 5 | Training the CNN Model The training uses a batch size of 64 and will run for a maximum of 100 epochs or until the early stopping condition is met. During the training, the model's performance is evaluated on the validation data after each epoch
 Step 6 | Visualizing the Learning Curves
 Step 7 | Evaluating the Optimal Model on Test Data.
-This steps represent the process in Model 1 
+This steps represent the process in Model (1)
+In the file code of Model(1), It has more Explanation about the code and the uses 
 I share 3 differents models of CNN classifications that has explain the difference after experiment with various hyperparameters to optimize the model by changing the learning rate, numbers of layers, number of epochs, Dropout Rate, Batch Size 
