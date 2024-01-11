@@ -5,3 +5,6 @@ Step 3 | Data Preprocessing 1)Normalization of Image Data :(convert the pixel va
 2)One-Hot Encoding of Labels: convert the class labels to one-hot vectors to transform the categorical labels into a format suitable
 3)Data Augmentation :expand the size of the training set by creating modified versions of images in the dataset
 Step 4 | Define CNN Model Architecture :It contains multiple convolutional layers followed by max-pooling and dropout layers, and finally a fully connected layer for classification.
+Step 5 | Training the CNN Model The training uses a batch size of 64 and will run for a maximum of 250 epochs or until the early stopping condition is met. During the training, the model's performance is evaluated on the validation data after each epoch
+Step 6 | Visualizing the Learning Curves
+Step 7 | Evaluating the Optimal Model on Test Data.
