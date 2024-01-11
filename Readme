@@ -8,3 +8,4 @@ Step 4 | Define CNN Model Architecture :It contains multiple convolutional layer
 Step 5 | Training the CNN Model The training uses a batch size of 64 and will run for a maximum of 250 epochs or until the early stopping condition is met. During the training, the model's performance is evaluated on the validation data after each epoch
 Step 6 | Visualizing the Learning Curves
 Step 7 | Evaluating the Optimal Model on Test Data.
+I share 3 differents models of CNN classifications that has explain the difference after experiment with various hyperparameters to optimize the model by changing the learning rate, numbers of layers, number of epochs, Dropout Rate, Batch Size 
